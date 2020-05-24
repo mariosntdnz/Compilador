@@ -1,0 +1,32 @@
+int a = 13;
+
+def int func(int:a,char:b) 
+initfunc
+
+	return 10;
+endfunc
+ 
+if(a == 13)
+then
+	int a = 0;
+	if( nonLocal a(2) > 5)
+	then
+		for i  1..3
+		do
+			print("estou no if ",nonLocal a(3)," ",a," ",nonLocal a;separated = '\t');
+		endloop
+		for i 4..2 step -1
+		do
+			print(i);
+		endloop
+		for(int i = 0;i < 4;i++)
+		do
+			print(i," get variavel global -> ",GLOBAL a);
+		endloop
+	endif
+endif
+int t = 1,y,c = 3.5; #variavel c vai ter cast pq foi declarada como int
+
+print(t," ",c);
+print(func(int(10.5),'q'));
+
